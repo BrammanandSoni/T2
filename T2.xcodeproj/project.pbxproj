@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A32D4231A4BAFB0005476EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A32D4221A4BAFB0005476EB /* UIKit.framework */; };
+		3A32D4251A4BAFB0005476EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A32D4241A4BAFB0005476EB /* Foundation.framework */; };
+		3A32D4271A4BAFB0005476EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A32D4261A4BAFB0005476EB /* CoreGraphics.framework */; };
+		3A32D42D1A4BAFB0005476EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A32D42B1A4BAFB0005476EB /* InfoPlist.strings */; };
+		3A32D42F1A4BAFB0005476EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A32D42E1A4BAFB0005476EB /* main.m */; };
+		3A32D4331A4BAFB0005476EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A32D4321A4BAFB0005476EB /* AppDelegate.m */; };
+		3A32D4361A4BAFB0005476EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A32D4351A4BAFB0005476EB /* ViewController.m */; };
+		3A32D4391A4BAFB0005476EB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A32D4371A4BAFB0005476EB /* ViewController.xib */; };
+		3A32D4421A4BB0E5005476EB /* GetAlarmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A32D4401A4BB0E5005476EB /* GetAlarmsViewController.m */; };
+		3A32D4431A4BB0E5005476EB /* GetAlarmsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A32D4411A4BB0E5005476EB /* GetAlarmsViewController.xib */; };
+		3A7F26341A4BF45F00AEB09A /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A7F26331A4BF45E00AEB09A /* alarm.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A32D41E1A4BAFB0005476EB /* T2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A32D4221A4BAFB0005476EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A32D4241A4BAFB0005476EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A32D4261A4BAFB0005476EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A32D42A1A4BAFB0005476EB /* T2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "T2-Info.plist"; sourceTree = "<group>"; };
+		3A32D42C1A4BAFB0005476EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A32D42E1A4BAFB0005476EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A32D4301A4BAFB0005476EB /* T2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-Prefix.pch"; sourceTree = "<group>"; };
+		3A32D4311A4BAFB0005476EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A32D4321A4BAFB0005476EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A32D4341A4BAFB0005476EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A32D4351A4BAFB0005476EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A32D4381A4BAFB0005476EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3A32D43F1A4BB0E5005476EB /* GetAlarmsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAlarmsViewController.h; sourceTree = "<group>"; };
+		3A32D4401A4BB0E5005476EB /* GetAlarmsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAlarmsViewController.m; sourceTree = "<group>"; };
+		3A32D4411A4BB0E5005476EB /* GetAlarmsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetAlarmsViewController.xib; sourceTree = "<group>"; };
+		3A32D4441A4BB73F005476EB /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		3A32D4451A4BB73F005476EB /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		3A7F26331A4BF45E00AEB09A /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A32D41B1A4BAFB0005476EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A32D4231A4BAFB0005476EB /* UIKit.framework in Frameworks */,
+				3A32D4251A4BAFB0005476EB /* Foundation.framework in Frameworks */,
+				3A32D4271A4BAFB0005476EB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A32D4131A4BAFAF005476EB = {
+			isa = PBXGroup;
+			children = (
+				3A32D4281A4BAFB0005476EB /* T2 */,
+				3A32D4211A4BAFB0005476EB /* Frameworks */,
+				3A32D41F1A4BAFB0005476EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A32D41F1A4BAFB0005476EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A32D41E1A4BAFB0005476EB /* T2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A32D4211A4BAFB0005476EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A32D4441A4BB73F005476EB /* EventKit.framework */,
+				3A32D4451A4BB73F005476EB /* EventKitUI.framework */,
+				3A32D4221A4BAFB0005476EB /* UIKit.framework */,
+				3A32D4241A4BAFB0005476EB /* Foundation.framework */,
+				3A32D4261A4BAFB0005476EB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A32D4281A4BAFB0005476EB /* T2 */ = {
+			isa = PBXGroup;
+			children = (
+				3A32D4311A4BAFB0005476EB /* AppDelegate.h */,
+				3A32D4321A4BAFB0005476EB /* AppDelegate.m */,
+				3A32D4341A4BAFB0005476EB /* ViewController.h */,
+				3A32D4351A4BAFB0005476EB /* ViewController.m */,
+				3A32D4371A4BAFB0005476EB /* ViewController.xib */,
+				3A32D43F1A4BB0E5005476EB /* GetAlarmsViewController.h */,
+				3A32D4401A4BB0E5005476EB /* GetAlarmsViewController.m */,
+				3A32D4411A4BB0E5005476EB /* GetAlarmsViewController.xib */,
+				3A7F26331A4BF45E00AEB09A /* alarm.wav */,
+				3A32D4291A4BAFB0005476EB /* Supporting Files */,
+			);
+			path = T2;
+			sourceTree = "<group>";
+		};
+		3A32D4291A4BAFB0005476EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A32D42A1A4BAFB0005476EB /* T2-Info.plist */,
+				3A32D42B1A4BAFB0005476EB /* InfoPlist.strings */,
+				3A32D42E1A4BAFB0005476EB /* main.m */,
+				3A32D4301A4BAFB0005476EB /* T2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A32D41D1A4BAFB0005476EB /* T2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A32D43C1A4BAFB0005476EB /* Build configuration list for PBXNativeTarget "T2" */;
+			buildPhases = (
+				3A32D41A1A4BAFB0005476EB /* Sources */,
+				3A32D41B1A4BAFB0005476EB /* Frameworks */,
+				3A32D41C1A4BAFB0005476EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T2;
+			productName = T2;
+			productReference = 3A32D41E1A4BAFB0005476EB /* T2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A32D4151A4BAFAF005476EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3A32D4181A4BAFAF005476EB /* Build configuration list for PBXProject "T2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A32D4131A4BAFAF005476EB;
+			productRefGroup = 3A32D41F1A4BAFB0005476EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A32D41D1A4BAFB0005476EB /* T2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A32D41C1A4BAFB0005476EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A32D42D1A4BAFB0005476EB /* InfoPlist.strings in Resources */,
+				3A32D4391A4BAFB0005476EB /* ViewController.xib in Resources */,
+				3A32D4431A4BB0E5005476EB /* GetAlarmsViewController.xib in Resources */,
+				3A7F26341A4BF45F00AEB09A /* alarm.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A32D41A1A4BAFB0005476EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A32D42F1A4BAFB0005476EB /* main.m in Sources */,
+				3A32D4331A4BAFB0005476EB /* AppDelegate.m in Sources */,
+				3A32D4361A4BAFB0005476EB /* ViewController.m in Sources */,
+				3A32D4421A4BB0E5005476EB /* GetAlarmsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A32D42B1A4BAFB0005476EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A32D42C1A4BAFB0005476EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A32D4371A4BAFB0005476EB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A32D4381A4BAFB0005476EB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A32D43A1A4BAFB0005476EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A32D43B1A4BAFB0005476EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A32D43D1A4BAFB0005476EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Indian Hotels Company Limited. (W7D4ZZ2796)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Indian Hotels Company Limited. (W7D4ZZ2796)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "T2/T2-Prefix.pch";
+				INFOPLIST_FILE = "T2/T2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A32D43E1A4BAFB0005476EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Indian Hotels Company Limited. (W7D4ZZ2796)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Indian Hotels Company Limited. (W7D4ZZ2796)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "T2/T2-Prefix.pch";
+				INFOPLIST_FILE = "T2/T2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A32D4181A4BAFAF005476EB /* Build configuration list for PBXProject "T2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A32D43A1A4BAFB0005476EB /* Debug */,
+				3A32D43B1A4BAFB0005476EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A32D43C1A4BAFB0005476EB /* Build configuration list for PBXNativeTarget "T2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A32D43D1A4BAFB0005476EB /* Debug */,
+				3A32D43E1A4BAFB0005476EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A32D4151A4BAFAF005476EB /* Project object */;
+}
