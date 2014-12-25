@@ -81,17 +81,4 @@
     [self.view endEditing:YES];
 }
 
-- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
-{
-    if ( event.subtype == UIEventSubtypeMotionShake )
-    {
-        NSLog(@"Shake");
-    }
-}
-
-- (BOOL)canBecomeFirstResponder
-{ 
-    return YES; 
-}
-
 @end
